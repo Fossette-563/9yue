@@ -1,5 +1,5 @@
 {
-  "name": "mark-rbac",
+  "name": "9yue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.9",
+    "screenfull": "^6.0.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
