@@ -46,17 +46,17 @@ const route = useRoute()
 const router = useRouter()
 
 //删除单个tagsView
-// const handleCloseTags = (TagsName) => {
-// const tags = store.getters.TagsView
-// const index = tags.findIndex((item) => item.path === TagsName)
-// store.commit('tagsView/delTags', index)
+const handleCloseTags = (TagsName) => {
+  const tags = store.getters.TagsView
+  const index = tags.findIndex((item) => item.path === TagsName)
+  store.commit('tagsView/delTags', index)
 //  选中
 // if (index !== tags.length - 1) {
 //   path = tags[index - 1].path
 // } else {
 //   path = tags[index + 1].path
 // }
-// }
+}
 //获取tagsView渲染
 const TagsView = computed(() => {
   return store.getters.TagsView
